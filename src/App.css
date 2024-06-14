@@ -45,6 +45,10 @@ button:hover {
   opacity: 1;
 }
 
+button:disabled {
+  opacity: 0.5;
+}
+
 .todo-list {
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -70,6 +74,10 @@ button:hover {
   background-color: #D9534f;
 }
 
+.edit {
+  background-color: #333974;
+}
+
 .todo-form {
   padding-bottom: 1.5rem;
 }
@@ -80,4 +88,22 @@ input, select {
   border: 1px solid #DDD;
   border-radius: 3px;
   width: 100%;
+}
+
+.button-action {
+  display: flex;
+  justify-content: center;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.content-input-update {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
